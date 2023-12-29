@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+	background : rgb(204, 204, 204);
+}
+
+h1, h2 {
+	text-align : center;
+}
+
+#playlist {
+	background : white;
+	margin : 20px;
+	padding : 20px;
+	border : 1px solid black;
+	border-radius : 7px;
+}
+
+#playlist>li {
+	list-style-type : none;
+}
+
+#playlist>a {
+	text-decoration-line : none;
+}
+
+#media {
+	background : rgb(255, 255, 255);
+	margin-inline : 50px;
+	padding : 10px;
+	border : 1px solid black;
+	border-radius : 7px;
+}
+
+#media>*{
+	width : 100%;
+}
